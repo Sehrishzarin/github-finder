@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* Main Header Container */
+.main {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Main Title */
+.main h1 {
+  font-size: 32px;
+  color: #004890; /* Theme color */
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.main p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Username Note */
+.main .note {
+  font-size: 14px;
+  color: #EF7125; /* Highlighted text */
+  font-style: italic;
+}

@@ -1,0 +1,59 @@
+/* Container for the repository list */
+.repo-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  /* Individual repository item */
+  .repo-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  .repo-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+  }
+  
+  /* Repository name (link) */
+  .repo-item a {
+    text-decoration: none;
+    color: #004890; /* Theme color */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .repo-item a:hover {
+    color: #EF7125; /* Hover color */
+    text-decoration: underline;
+  }
+  
+  /* Description text */
+  .repo-description {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Repository stats (like stars, forks) */
+  .repo-stats {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 8px;
+  }
+  
+  .repo-stats span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .repo-stats svg {
+    fill: #004890; /* Icon color */
+  }
+  
