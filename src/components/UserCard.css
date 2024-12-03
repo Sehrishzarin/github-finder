@@ -1,0 +1,48 @@
+/* Container to wrap everything neatly */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  /* Profile Image Styling */
+  .user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #004890; /* Your theme color */
+  }
+  
+  /* User Info Links */
+  .user-info a {
+    text-decoration: none;
+    color: #004890;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .user-info a:hover {
+    color: #EF7125; /* Your theme hover color */
+    text-decoration: underline;
+  }
+  
+  /* Styling the header if needed */
+  .user-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional Styling for alignment */
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
