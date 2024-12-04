@@ -12,7 +12,7 @@ const Header = () => {
           <a class="active" href="https://www.linkedin.com/in/sehrish-zarin/">
             Linkedin
           </a>
-          <a href="https://www.linkedin.com/in/sehrish-zarin/">Github</a>
+          <a href="https://github.com/sehrishzarin">Github</a>
           <a href="#about">About</a>
         </div>
       </div>
